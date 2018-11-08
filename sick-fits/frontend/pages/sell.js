@@ -1,8 +1,12 @@
 import React from 'react';
+import CreateItem from '../components/CreateItem';
 
 const Sell = (props) => {
   return (
-    <div>sell</div>
+    <div>
+      <h2>Sell an item</h2>
+      <CreateItem/>
+    </div>
   );
 };
 
